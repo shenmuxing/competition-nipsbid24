@@ -1,0 +1,88 @@
+# Shenmuxing 专用gitignore文件
+deploy_zjy.sh
+deploy_yhq.sh
+deploy_zjy.bat
+utils/user.py
+
+# logs
+logs/
+
+runs/
+
+# profile_results
+profile_results*
+
+*.yml 
+
+# dat文件
+*.dat
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/  
+
+# Data files
+*.zip
+*.csv
+!period.csv
+*.feather
+*.pickle
+
+# Temporary files and directories
+tmp
+tmp.*
+*.tmp
+**/tmp/
+/myself/
+bidding_train_env/dataloader/myself/
+# Virtual environment
+venv/
+env/
+ENV/
+
+# PyCharm
+.idea/
+deploy_yhq.sh
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+dev.env
+/bidding_train_env/dataloader/yhq_rl_data_generator_test.py
+data/traffic/zjy_training_data_rlData_folder/test1005.ipynb
+saved_model/yhq_models/IQLtest/attention_iql_model.pth
+saved_model/yhq_models/IQLtest/iql_model.pth

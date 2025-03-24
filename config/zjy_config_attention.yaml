@@ -1,0 +1,24 @@
+iql_num_epochs: 20
+attention_num_epochs: 20
+
+attention_lr: 1e-4
+attention_batch_size: 1
+
+expectile: 0.85
+temperature: 1.8 # action的损失计算方法可能需要进行改进，AWR不是最好的方法。
+
+gamma: 0.99
+tau: 0.01
+
+V_lr: 1e-4
+critic_lr: 2e-4
+actor_lr: 2e-4
+
+iql_patience: 2 # early stopping patience for IQL
+
+attention_train_test_split: 0.93
+
+max_grad_norm: 5.0
+
+use_cuda: False
+num_workers: 2 # number of workers for data loading

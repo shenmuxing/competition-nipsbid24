@@ -1,0 +1,17 @@
+batch_size: 4096
+use_profiler: False # 是否进行debug
+num_epochs: 12
+
+# 基于reward进行抽样的配置
+use_reward_based_sampler: True
+reward_threshold: 0  # 当阈值大于reward_threshold时，按照alpha率抽样，否则按照beta进行抽样
+alpha: 0.8 # 按照alpha的概率抽样
+beta: 0.1 # 按照beta的概率进行随机采样
+
+expectile: 0.9
+
+V_lr: 3e-5
+critic_lr: 3e-5
+actor_lr: 5e-5
+
+early_stopping_patience: 4 # 早停参数

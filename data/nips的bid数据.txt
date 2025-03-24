@@ -1,0 +1,3 @@
+https://tianchi.aliyun.com/competition/entrance/532226/customize452
+来自于阿里妈妈举办的nips 2024竞价数据
+原始数据是zip压缩的csv，这里改成feather格式
